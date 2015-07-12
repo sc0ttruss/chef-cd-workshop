@@ -7,7 +7,7 @@ provisioner:
 
 platforms:
   - name: ubuntu-14.04
-    driver_config:
+    driver:
       network:
         - ["private_network", {ip: "192.168.56.42"}]
         
